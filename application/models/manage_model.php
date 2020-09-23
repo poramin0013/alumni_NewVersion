@@ -4,16 +4,22 @@ class Manage_model extends CI_Model {
             parent::__construct();
         }
         
-		/*function getAllMenus(){
-			$this->db->select('menu_id, menu_name, mcategory_id,mshop_id');
-			$result = $this->db->get('menu');
+		/*function getAllRegiter(){
+			$this->db->select('card_id, studentCode, name ,gender,birthday,address,p_tel,email,facebook');
+			$result = $this->db->get('personal');
 			return $result;
 		} */
 
-        function menu_insert($data){
-			$this->db->insert('regiter',$data);
+        function personal_insert($datapersonal){
+			$this->db->insert('personal',$datapersonal);
+			
         }
-        
+		function alumni_insert($dataalumni){
+			$this->db->insert('alumni',$data);
+		}
+		function workinformation_insert($dataworkinformation){
+			$this->db->insert('workinformation',$data);
+        }
 		/*function menu_delete($id){
 			$this->db->where('menu_id', $id);
 			$this->db->delete('menu');  
