@@ -1,3 +1,6 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Fashi Template">
@@ -89,7 +92,7 @@
                     </div>
                 </div>
             </div>
-            <form action="./index.php/manage/reg_alumni" method="post" enctype="multipart/form-data" id="form1">
+            <form action="<?php echo base_url();?>index.php/manage/reg_alumni" method="post" enctype="multipart/form-data" id="form1">
                 <br>
                 <h3><span class="badge" style="background-color:#e7ab3c;color:#fff;">ข้อมูลส่วนตัว</span></h3>
                 <hr>
@@ -178,7 +181,7 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label>รหัสนักศึกษา <span style="color:red;">*</span></label>
-                        <input type="text" class="form-control" name="studentCode" id="studentCode">
+                        <input type="text" class="form-control" name="student_id" id="student_id">
                     </div>
                     <div class="form-group col-md-6">
                         <label>หมู่เรียน</label>

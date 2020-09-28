@@ -15,11 +15,15 @@ class Manage_model extends CI_Model {
 			
         }
 		function alumni_insert($dataalumni){
-			$this->db->insert('alumni',$data);
+			$this->db->insert('alumni',$dataalumni);
 		}
 		function workinformation_insert($dataworkinformation){
-			$this->db->insert('workinformation',$data);
-        }
+			$this->db->insert('workinformation',$dataworkinformation);
+		}
+		
+		
+
+		
 		/*function menu_delete($id){
 			$this->db->where('menu_id', $id);
 			$this->db->delete('menu');  
