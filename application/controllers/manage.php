@@ -32,10 +32,10 @@ class Manage extends CI_Controller {
         $datapersonal = array(
             'card_id' => $this->input->post("card_id"),
             'student_id' => $this->input->post("student_id"),
-            $name,
+            'name'=> $name,
             'gender' => $this->input->post("gender"),
             'birthday' => $this->input->post("birthday"),
-            $address, 
+            'address' => $address, 
             'tel' => $this->input->post("p_tel"),
             'email' => $this->input->post("email"),
             'facebook' => $this->input->post("facebook"),
@@ -56,10 +56,10 @@ class Manage extends CI_Controller {
         );
         $address2 = $this->input->post("c_number").$this->input->post("c_road").$this->input->post("c_district").$this->input->post("c_amphoe").$this->input->post("c_province").$this->input->post("c_zipcode");
         $dataworkinformation = array(
-            'work_id' => $this->input->post(),
+            'student_id' => $this->input->post("student_id"),
             'company' => $this->input->post("company"),
             'position' => $this->input->post("position"),
-            $address2,
+            'address'=> $address2,
             'c_tel' => $this->input->post("c_tel")
 
         );
