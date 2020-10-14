@@ -7,7 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="keywords" content="Fashi, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ระบบสมาชิกศิษย์เก่า</title>
+    <title>AlumniS</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
@@ -73,8 +73,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </header>
 <style>
 .register{
-    background-color:#e7ab3c;
-    color:#fff;
+    background-color:#FFCCCC;
+    color:#FFFFCC;
 }
 </style>
 

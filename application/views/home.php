@@ -7,7 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="keywords" content="Fashi, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ระบบสมาชิกศิษย์เก่า</title>
+    <title>ALUMNI</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
@@ -52,15 +52,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="container">
                 <nav class="nav-menu mobile-menu">
                     <ul>
-                        <li class="index"><a href="index.php">หน้าแรก</a></li>
+                        <li class="index"><a href="index.php">HOME</a></li>
                         
                        
-                        <li><a href="#"  data-toggle="modal" data-target="#login">เข้าสู่ระบบ</a></li>
+                        <li><a href="#"  data-toggle="modal" data-target="#login">LOG IN</a></li>
                         <li class="register" ><a href="<?php echo base_url();?>index.php/welcome/reg_alumni">ลงทะเบียน</a></li>
                        
                       
                         <li class="edit"><a href="edit.php">ประวัติส่วนตัว</a></li>
-                        <li><a href="#"  data-toggle="modal" data-target="#logout">ออกจากระบบ</a></li>
+                        <li><a href="#"  data-toggle="modal" data-target="#logout">LOG OUT</a></li>
                       
 
                     </ul>
@@ -73,8 +73,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </header>
 <style>
 .index{
-    background-color:#e7ab3c;
-    color:#fff;
+    background-color:#FFCCCC	;
+    color:#FF66CC	;
 }
 </style>
 
@@ -139,9 +139,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </thead>
                 <tbody>
                     <tr>
-                        <td>test</td>
-                        <td>test</td>
-                        <!-- <td> อยากแสดงอะไรเพิ่มเองเลยนะ</td> -->
+                        <td>...</td>
+                        <td>...</td>
+                        <!-- <td> ...</td> -->
                         <td><button type="button" class="btn" style="background-color:#e7ab3c;color:#fff;" onclick=""  data-toggle="modal" data-target="#details" >รายละเอียด</button></td>
                     </tr>
 
